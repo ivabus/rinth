@@ -1,0 +1,6 @@
+name: Determination
+bpm: 120
+channels:
+  - type: FM
+    path: main
+    volume: 0.7

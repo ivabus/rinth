@@ -1,0 +1,3 @@
+[workspace]
+members = [ "rinth-midi", "rinth-synth", "rinth-types" ]
+resolver = "2"

@@ -1,0 +1,7 @@
+name: Megalovania
+bpm: 210
+channels:
+  - type: SSG
+    path: channel
+  - type: FM
+    path: channel

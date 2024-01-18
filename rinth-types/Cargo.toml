@@ -1,0 +1,11 @@
+[package]
+name = "rinth-types"
+version = "0.0.1"
+edition = "2021"
+publish = false
+license-file = "../LICENSE"
+authors = [ "Ivan Bushchik <ivabus@ivabus.dev>" ]
+
+[dependencies]
+toml = "0.8.8"
+serde = { version = "1.0.195", features = ["derive"] }

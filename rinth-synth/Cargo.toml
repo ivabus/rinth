@@ -1,0 +1,15 @@
+[package]
+name = "rinth-synth"
+version = "0.0.1"
+edition = "2021"
+publish = false
+license-file = "../LICENSE"
+authors = [ "Ivan Bushchik <ivabus@ivabus.dev>" ]
+
+[dependencies]
+rinth-types = {path = "../rinth-types" }
+hound = "3.5.1"
+serde_yaml = "0.9.30"
+clap = { version = "4.4", features = ["derive"] }
+serde = { version = "1.0.195", features = ["derive"] }
+meval = "0.2.0"
