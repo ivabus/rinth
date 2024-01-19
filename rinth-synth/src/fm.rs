@@ -16,7 +16,7 @@ pub struct ModulationFreq(f32);
 #[derive(Copy, Clone)]
 pub struct FrequencyDeviation(f32);
 
-const FIGHT_CLICKS: usize = 128;
+const FIGHT_CLICKS: usize = 256;
 
 impl Synth for FM {
 	fn from_channel(channel: Channel, bpm: u16) -> Self
@@ -84,9 +84,8 @@ impl Synth for FM {
 						// This makes a little linear fade-in-out so we don't get "clicks"
 						* if k <= FIGHT_CLICKS {
 							k as f32 / FIGHT_CLICKS as f32
-					} else if k
-							>= samples
-								- FIGHT_CLICKS
+					} else if samples - k
+							<= FIGHT_CLICKS
 						{
 							(samples
 								- k) as f32 / FIGHT_CLICKS as f32
