@@ -89,4 +89,4 @@ rinth-midi <path/to/midi.mid>
 
 ## License
 
-The project is available for non-commercial personal use under the terms of the [BSD 3-Clause New (Revised) License](./LICENSE) and fully unavailable for any other kind of use.
+The project is available for non-commercial personal use under the terms of the [BSD 3-Clause New (Revised) License](./LICENSE) and you should contact [ivabus](https://sr.ht/~ivabus) if you want to use Rinth in other cases.
